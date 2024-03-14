@@ -1,0 +1,14 @@
+services:
+  crew:
+    build: .
+    container_name: crewai
+    # command: python manage.py runserver
+    volumes:
+      - .:/app
+    environment:
+      OPENAI_API_BASE: http://rye:11434/v1
+      OPENAI_MODEL_NAME: dolphin-mistral
+      OPENAI_API_KEY: NA
+    ports:
+      - "5000:5000"
+    

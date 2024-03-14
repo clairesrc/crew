@@ -1,0 +1,6 @@
+flask==3.0.2
+crewai==0.22.5
+crewai-tools==0.0.15
+yfinance==0.2.37
+langchain_community==0.0.28
+duckduckgo-search==5.0
