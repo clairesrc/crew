@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import request
 from datetime import date
 from crewai import crew
 
@@ -15,4 +16,4 @@ def top():
 
 @app.route("/research")
 def research():
-    return researchCompany("Microsoft")
+    return researchCompany(request.args.get('company'))
