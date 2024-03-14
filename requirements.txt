@@ -4,3 +4,5 @@ crewai-tools==0.0.15
 yfinance==0.2.37
 langchain_community==0.0.28
 duckduckgo-search==5.0
+wikipedia==1.4.0
+tavily-python==0.3.1
