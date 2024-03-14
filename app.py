@@ -65,10 +65,10 @@ research_task = Task(
 
 write_report_task = Task(
     name="Write Report",
-    description="Write a report that synthesizes the stock trend with today's current events. Format your answer as plain text with no markup. ",
+    description="Write a report that identifies the relationships between {company}'s stock performance and its recent initiatives, products or services. Format your answer as plain text with no markup. ",
     agent=writer,
     verbose=True,
-    expected_output='A report that synthesizes the stock trend with today\'s current events.'
+    expected_output='A report that analyzzes the company performance in the context of its actions.'
     )
 
 crew = Crew(
